@@ -1,0 +1,257 @@
+.img-fondo1 {
+  background-image: url("https://revistaexclama.com/wp-content/uploads/2018/09/Detox-digital-EXCLAMA-3.gif");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+}
+.start-boton {
+  margin-top: 10%;
+  margin-left: 40%;
+  width: 300px; 
+  height: 300px; 
+  background-color: transparent ;
+  background-image: url('https://m.media-amazon.com/images/I/411AspoEaTL._AC_UF894,1000_QL80_.jpg'); 
+  background-position: center center;
+  background-size: cover; 
+  border: none; 
+  cursor: pointer;
+  outline: none; 
+}
+.start-boton:hover {
+  background-image: url('https://fmlopez48.files.wordpress.com/2016/05/gif-alucinante-1.gif');
+  transform: scale(1.05) rotate(10deg);
+  transition: transform 1s ease;
+}
+.exit{
+  margin-top: 2%;
+  margin-left: 85%;
+  position: absolute;
+  background-color: transparent ;
+  width: 200px; 
+  height: auto;
+}
+.spam1{
+  margin-top: 12%;
+  margin-left: 2%;
+  position: absolute;
+  background-color: transparent ;
+  width: 200px; 
+  height: auto;
+}
+.spam2{
+  margin-top: 32%;
+  margin-left: 2%;
+  position: absolute;
+  background-color: transparent ;
+  width: 200px; 
+  height: auto;
+}
+.spam3{
+  margin-top: 12%;
+  margin-left: 85%;
+  position: absolute;
+  background-color: transparent ;
+  width: 200px; 
+  height: auto;
+}
+
+.spam4{
+  margin-top: 32%;
+  margin-left: 85%;
+  position: absolute;
+  background-color: transparent ;
+  width: 200px; 
+  height: auto;
+}
+
+.capas {
+  margin-top: 0%;
+  margin-left: 0%;
+  position: relative;
+  max-width: 200px;
+}
+.contenedor {
+  position: relative;
+}
+.dev{
+  margin-top: 2%;
+  margin-left: 2%;
+  position: absolute;
+  background-color: transparent ;
+  width: 200px; 
+  height: auto;
+}
+body, html {
+  cursor: move;
+  height: 100%;
+  margin: 0;
+}
+.random_move1 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  animation: random_move_1 3s linear infinite;
+}
+.random_move2 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  animation: random_move_2 3s linear infinite;
+}
+.random_move3 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  animation: random_move_3 3s linear infinite;
+}
+.random_move4 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  animation: random_move_4 3s linear infinite;
+}
+.random_move5 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  animation: random_move_5 3s linear infinite;
+}
+.random_move6 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  animation: random_move_6 3s linear infinite;
+}
+.random_move7 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  animation: random_move_7 3s linear infinite;
+}
+
+@keyframes random_move_1 {
+  0% {
+    top: 89%;
+    left: 0;
+  }
+  50% {
+    top: 30%;
+    left: 0;
+  }
+  100% {
+    top: 0;
+    left: 89%;
+  }
+}
+
+@keyframes random_move_2 {
+  0% {
+    top: 20%;
+    left: 10%;
+  }
+  50% {
+    top: 45%;
+    left: 59%;
+  }
+  100% {
+    top: 89%;
+    left: 89%;
+  }
+}
+
+@keyframes random_move_3 {
+  0% {
+    top: 60%;
+    left: 30%;
+  }
+  50% {
+    top: 9%;
+    left: 9%;
+  }
+  100% {
+    top: 0%;
+    left: 0%;
+  }
+}
+@keyframes random_move_4 {
+  0% {
+    top: 50%;
+    left: 60%;
+  }
+  50% {
+    top: 89%;
+    left: 0%;
+  }
+  100% {
+    top: 0%;
+    left: 89%;
+  }
+}
+@keyframes random_move_5 {
+  0% {
+    top: 20%;
+    left: 80%;
+  }
+  50% {
+    top: 45%;
+    left: 59%;
+  }
+  100% {
+    top: 0%;
+    left: 89%;
+  }
+}
+
+@keyframes random_move_6 {
+  0% {
+    top: 20%;
+    left: 10%;
+  }
+  50% {
+    top: 45%;
+    left: 59%;
+  }
+  100% {
+    top: 89%;
+    left: 89%;
+  }
+}
+
+@keyframes random_move_7 {
+  0% {
+    top: 89%;
+    left: 0%;
+  }
+  50% {
+    top: 69%;
+    left: 60%;
+  }
+  100% {
+    top: 39%;
+    left: 39%;
+  }
+}
+.texto-api {
+  font-size: 24px; /* Tamaño de fuente grande */
+  font-family: 'Comic Sans MS', cursive; /* Fuente cursiva */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: max-content;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: rgba(255, 0, 255, 0.5); /* Fondo rosa brillante */
+  color: rgb(255, 255, 0); /* Texto amarillo brillante */
+  position: absolute;
+  z-index: 2;
+  border: 4px solid rgb(0, 255, 255); /* Borde grueso cyan */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+}
+@keyframes escribir {
+  from { width: 100% }
+  to { width:0 }
+}
+
+
+
+
